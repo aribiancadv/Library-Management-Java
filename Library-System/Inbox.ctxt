@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Inbox
+comment0.text=\r\n\ This\ class\ stores\ information\ about\ Inbox\ objects.\r\n\ It\ provides\ sender\ and\ timestamp\ fields\r\n\ for\ the\ subclasses\ Message\ and\ Notifications.\r\n\r\n\ @author\ Meenah\ the\ Fish\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Inbox()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Inbox.\r\n
+comment2.params=sender
+comment2.target=Inbox(java.lang.String)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Inbox.\r\n\ \r\n\ @param\ \ \ sender\ \ The\ inbox\ obj\ sender.\r\n
+comment3.params=sender
+comment3.target=void\ setSender(java.lang.String)
+comment3.text=\r\n\ Method\ to\ set\ the\ Inbox\ obj\ sender.\r\n\ \r\n\ @param\ \ \ sender\ \ The\ Inbox\ obj\ sender.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSender()
+comment4.text=\r\n\ Method\ to\ get\ the\ Inbox\ obj\ sender.\r\n\ \r\n\ @return\ \ sender\ \ The\ Inbox\ obj\ sender.\r\n
+comment5.params=
+comment5.target=void\ setTimestamp()
+comment5.text=\r\n\ Method\ to\ set\ the\ timestamp,\ automatically\ sets\ it\r\n\ to\ the\ current\ system\ time.\r\n
+comment6.params=
+comment6.target=java.time.LocalTime\ getTimestamp()
+comment6.text=\r\n\ Method\ to\ get\ the\ Inbox\ obj\ timestamp.\r\n\ \r\n\ @return\ \ timestamp\ \ The\ Inbox\ obj\ timestamp.\r\n
+numComments=7

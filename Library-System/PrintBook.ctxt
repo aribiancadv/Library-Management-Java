@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=PrintBook
+comment0.text=\r\n\ This\ class\ stores\ information\ about\ a\ print\ book.\r\n\r\n\ @author\ Meenah\ the\ Fish\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=PrintBook()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PrintBook.\r\n
+comment2.params=author\ title\ publisher\ isbn\ yearPublished\ location\ resourceId\ condition
+comment2.target=PrintBook(java.lang.String,\ java.lang.String,\ java.lang.String,\ long,\ int,\ java.lang.String,\ long,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ PrintBook.\r\n\ It\ does\ not\ take\ the\ userAccessing\ parameter\r\n\ as\ that\ can\ be\ modified\ by\ setter\ method\r\n\ and\ should\ default\ to\ null.\r\n\ The\ constructor\ also\ sets\ the\ isEresource\r\n\ parameter\ to\ 'false'\ automatically.\r\n\r\n\ @param\ \ \ \ author\ \ \ \ \ \ \ \ \ \ The\ resource's\ author.\r\n\ @param\ \ \ \ title\ \ \ \ \ \ \ \ \ \ \ The\ resource's\ title.\r\n\ @param\ \ \ \ publisher\ \ \ \ \ \ \ The\ resource's\ publisher.\r\n\ @param\ \ \ \ isbn\ \ \ \ \ \ \ \ \ \ \ \ The\ ISBN\ of\ the\ resource\ in\ question.\r\n\ @param\ \ \ \ yearPublished\ \ \ The\ year\ of\ publication.\r\n\ @param\ \ \ \ isAvailable\ \ \ \ \ Whether\ the\ resource\ is\ available\ (true)\ or\ on\ loan\ (false).\r\n\ @param\ \ \ \ location\ \ \ \ \ \ \ \ The\ location\ of\ the\ resource.\r\n\ @param\ \ \ \ condition\ \ \ \ \ \ \ The\ book's\ condition.\r\n
+comment3.params=condition
+comment3.target=void\ setCondition(java.lang.String)
+comment3.text=\r\n\ Method\ to\ set\ the\ book's\ condition.\r\n\ \r\n\ @param\ \ \ condition\ \ \ The\ book's\ condition.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCondition()
+comment4.text=\r\n\ Method\ to\ get\ the\ book's\ condition.\r\n\ \r\n\ @return\ \ condition\ \ \ The\ book's\ condition\r\n
+comment5.params=isbn
+comment5.target=void\ setIsbn(long)
+comment5.text=\r\n\ Method\ to\ set\ ISBN.\ Note\:\ the\ letter\ L\r\n\ must\ be\ used\ at\ the\ end\ of\ the\ input\ number,\r\n\ otherwise\ an\ error\ occurs.\r\n\ \r\n\ @param\ \ \ isbn\ \ \ \ A\ long\ for\ the\ ISBN\ that\ is\ either\ 10\ or\ 13\ characters\ long.\r\n
+comment6.params=
+comment6.target=long\ getIsbn()
+comment6.text=\r\n\ Method\ to\ get\ the\ ISBN.\r\n\ \r\n\ @return\ \ isbn\ \ \ The\ resource's\ ISBN.\r\n
+comment7.params=
+comment7.target=void\ displayBookDetails()
+numComments=8

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EBook
+comment0.text=\r\n\ This\ class\ stores\ information\ about\ an\ electronic\ book.\r\n\r\n\ @author\ Meenah\ the\ Fish\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=EBook()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ EBook.\r\n
+comment2.params=author\ title\ publisher\ yearPublished\ location\ resourceId
+comment2.target=EBook(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ long)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ EBook.\r\n\ It\ does\ not\ take\ the\ userAccessing\ parameter\r\n\ as\ that\ can\ be\ modified\ by\ setter\ method\r\n\ and\ should\ default\ to\ null.\r\n\r\n\ @param\ \ \ \ author\ \ \ \ \ \ \ \ \ \ The\ resource's\ author.\r\n\ @param\ \ \ \ title\ \ \ \ \ \ \ \ \ \ \ The\ resource's\ title.\r\n\ @param\ \ \ \ publisher\ \ \ \ \ \ \ The\ resource's\ publisher.\r\n\ @param\ \ \ \ isEresource\ \ \ \ \ Indicates\ whether\ it\ is\ an\ online\ resource\ (true)\ or\ in\ print\ (false).\r\n\ @param\ \ \ \ yearPublished\ \ \ The\ year\ of\ publication.\r\n\ @param\ \ \ \ isAvailable\ \ \ \ \ Whether\ the\ resource\ is\ available\ (true)\ or\ on\ loan\ (false).\r\n\ @param\ \ \ \ location\ \ \ \ \ \ \ \ The\ location\ of\ the\ resource.\r\n
+comment3.params=device
+comment3.target=void\ addDevice(Device)
+comment3.text=\r\n\ This\ method\ adds\ a\ device\ to\ the\ ArrayList\r\n\ of\ devices\ that\ can\ access\ this\ resource.\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getDevicesList()
+comment4.text=\r\n\ Get\ the\ list\ of\ compatible\ devices.\r\n\ \r\n\ @return\ \ devicesList\ \ \ The\ ArrayList\ of\ compatible\ devices.\r\n
+numComments=5
